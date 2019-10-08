@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParametrizeSuite">
+<listeners>
+<listener class-name="Analyzer.AnnotationTransfer"/>
+</listeners>
+	<test name="ParameterTest">
+		
+		<classes>
+			<class name="TestNg.RetryLogic" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

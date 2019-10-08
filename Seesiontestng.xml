@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SessionnSuite" thread-count="3" parallel="classes">
+  <test name="TestSessionSuit">
+    <classes>
+      <class name="TestNg.SessionHandling"/>
+      <class name="TestNg.sessionHandling2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

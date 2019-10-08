@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="TestNg2(failed)">
+    <classes>
+      <class name="testNg1.GruoupingEx">
+        <methods>
+          <include name="testGetTitle"/>
+          <include name="testGetPageURL"/>
+        </methods>
+      </class> <!-- testNg1.GruoupingEx -->
+    </classes>
+  </test> <!-- TestNg2(failed) -->
+  <test thread-count="3" parallel="tests" name="TestSessionSuit(failed)">
+    <classes>
+      <class name="TestNg.GruoupingEx">
+        <methods>
+          <include name="testGetTitle"/>
+          <include name="testGetPageURL"/>
+        </methods>
+      </class> <!-- TestNg.GruoupingEx -->
+    </classes>
+  </test> <!-- TestSessionSuit(failed) -->
+</suite> <!-- Failed suite [Suite] -->

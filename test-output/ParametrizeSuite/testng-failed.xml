@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParametrizeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Analyzer.AnnotationTransfer"/>
+  </listeners>
+  <test thread-count="5" name="ParameterTest(failed)">
+    <classes>
+      <class name="TestNg.RetryLogic">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- TestNg.RetryLogic -->
+    </classes>
+  </test> <!-- ParameterTest(failed) -->
+</suite> <!-- Failed suite [ParametrizeSuite] -->

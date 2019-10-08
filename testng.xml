@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParametrizeSuite">
+<parameter name="FirstName" value="Aman"/>
+		<parameter name="LastName" value="Kumar"/>
+	<test name="ParameterTest">
+		
+		<classes>
+			<class name="TestNg.parameterizeEx" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
